@@ -6,7 +6,7 @@
 * copy ``config.dist.php`` to ``config.php``
 * set your password in ``config.php``
 * upload to your webserver
-* access ``link.php`` and enter the password to generate a new key
+* access ``link.php`` with a webbrowser and enter the password to generate a new key
 * copy and paste the webhook url to your friendly webhook providing service (eg github)
 
 ## MIT License
