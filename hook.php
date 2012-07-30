@@ -8,7 +8,7 @@ if (file_exists('key.php'))
     if ($key['current'] === $_SERVER['QUERY_STRING'])
     {
         $submodule = getcwd();
-        $project = $submodule.'/../../';
+        $project = $submodule.'/../../../';
         chdir(dirname($project));
         _exec('pwd');
         _exec('git pull');
