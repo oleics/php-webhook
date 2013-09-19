@@ -1,5 +1,5 @@
 <?php
 
 return array(
-  'passwd' => 'change me'
+    'passwd' => 'change me'
 );
